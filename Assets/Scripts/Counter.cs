@@ -10,7 +10,6 @@ public class Counter : MonoBehaviour
     [SerializeField] private float _currentValue;
 
     private bool _isActive = false;
-    private bool _testBool = true;
     private Coroutine _count;
 
     void Start()
